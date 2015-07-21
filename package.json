@@ -1,0 +1,27 @@
+{
+    "name"        : "XMLTransactionHander",
+    "version"     : "0.0.1",
+    "description" : "Codeigniter library to manage xml curl request and response",
+    "authors"     : [
+        {
+            "name"  : "Alessandro Minoccheri",
+            "email" : "alessandro.minoccheri@gmail.com"
+        }
+    ],
+    "license"  : "MIT",
+    "homepage" : "https://github.com/AlessandroMinoccheri/XMLTransactionHander",
+    "keywords" : [
+        "codeigniter",
+        "curl",
+        "xml",
+        "request",
+        "response"
+    ],
+    "repository" : {
+        "type" : "git",
+        "url"  : "https://github.com/AlessandroMinoccheri/XMLTransactionHander.git"
+    },
+    "bugs" : {
+        "url" : "https://github.com/AlessandroMinoccheri/XMLTransactionHander/issues"
+    }
+}
