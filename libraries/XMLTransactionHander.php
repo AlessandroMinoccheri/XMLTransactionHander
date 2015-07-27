@@ -42,10 +42,12 @@ class XMLTransactionHander{
 
         if( $this->errno == 200 ) {
             $inputDoc = new DOMDocument();
-            if(isset($this->XMLResponseRaw) && ($this->XMLResponseRaw != ''))
+            if(isset($this->XMLResponseRaw) && ($this->XMLResponseRaw != '')){
             	$inputDoc->loadXML($this->XMLResponseRaw);
-            else
+            }
+            else{
             	$inputDoc = NULL;
+            }
 
             return $inputDoc;
         }
